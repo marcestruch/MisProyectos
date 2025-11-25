@@ -4,40 +4,28 @@ const projectsContainer = document.getElementById('projects-container');
 // Puedes reemplazar esto con una llamada a la API de GitHub
 const projects = [
     {
-        name: "Proyecto Alpha",
-        description: "Una aplicación web revolucionaria para la gestión de tareas minimalista.",
-        html_url: "#",
-        image: "project_placeholder.png"
+        name: "pelis_v1",
+        description: "Un proyecto de Películas con PHP y MySQL",
+        html_url: "https://github.com/marcestruch/pelis_v1",
+        image: "pelis_v1_preview.png"
     },
     {
-        name: "Data Visualizer",
-        description: "Herramienta de visualización de datos en tiempo real usando D3.js.",
-        html_url: "#",
-        image: "project_placeholder.png"
+        name: "Practicas_JS",
+        description: "Un proyecto de práctica de JavaScript",
+        html_url: "https://github.com/marcestruch/Practicas_JS",
+        image: "practicas_js_preview.png"
     },
     {
-        name: "E-Commerce Core",
-        description: "Backend robusto para plataformas de comercio electrónico escalables.",
-        html_url: "#",
-        image: "project_placeholder.png"
+        name: "Traductor",
+        description: "Un proyecto de Traductor con Javascript y API",
+        html_url: "https://github.com/marcestruch/Traductor",
+        image: "traductor_preview.png"
     },
     {
-        name: "AI Chatbot",
-        description: "Bot conversacional impulsado por inteligencia artificial y procesamiento de lenguaje natural.",
-        html_url: "#",
-        image: "project_placeholder.png"
-    },
-    {
-        name: "Portfolio V1",
-        description: "La primera versión de mi portafolio personal, enfocada en la tipografía.",
-        html_url: "#",
-        image: "project_placeholder.png"
-    },
-    {
-        name: "Weather App",
-        description: "Aplicación del clima con geolocalización y pronósticos precisos.",
-        html_url: "#",
-        image: "project_placeholder.png"
+        name: "Gen-Pass-Marc.github.io",
+        description: "Un proyecto de Generador de Contraseñas con Javascript",
+        html_url: "https://github.com/marcestruch/Gen-Pass-Marc.github.io",
+        image: "gen_pass_preview.png"
     }
 ];
 
@@ -70,16 +58,3 @@ function renderProjects() {
 document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
 });
-
-// Opcional: Fetch real de GitHub
-/*
-async function fetchGitHubProjects(username) {
-    try {
-        const response = await fetch(`https://api.github.com/users/${username}/repos`);
-        const data = await response.json();
-        // Mapear datos y renderizar
-    } catch (error) {
-        console.error('Error fetching repos:', error);
-    }
-}
-*/
