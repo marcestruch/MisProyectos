@@ -7,25 +7,25 @@ const projects = [
         name: "pelis_v1",
         description: "Un proyecto de Películas con PHP y MySQL",
         html_url: "https://github.com/marcestruch/pelis_v1",
-        image: "pelis_v1_preview.png"
+        image: "assets/img/pelis_v1_preview.png"
     },
     {
         name: "Practicas_JS",
         description: "Un proyecto de práctica de JavaScript",
         html_url: "https://github.com/marcestruch/Practicas_JS",
-        image: "practicas_js_preview.png"
+        image: "assets/img/practicas_js_preview.png"
     },
     {
         name: "Traductor",
         description: "Un proyecto de Traductor con Javascript y API",
         html_url: "https://github.com/marcestruch/Traductor",
-        image: "traductor_preview.png"
+        image: "assets/img/traductor_preview.png"
     },
     {
         name: "Gen-Pass-Marc.github.io",
         description: "Un proyecto de Generador de Contraseñas con Javascript",
         html_url: "https://github.com/marcestruch/Gen-Pass-Marc.github.io",
-        image: "gen_pass_preview.png"
+        image: "assets/img/gen_pass_preview.png"
     }
 ];
 
